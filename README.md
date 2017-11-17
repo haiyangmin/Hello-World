@@ -31,3 +31,14 @@ B[j]=A[x-steps+j];
 }
 return B;
 }
+
+// FrogJmp - https://codility.com/demo/results/training6KKWUD-BXJ/
+function solution(X,Y,D){
+let distance=X;
+let jumps=0;
+while (distance<=Y){
+ distance+=D;
+  ++jumps;
+ }
+return jumps;
+}
