@@ -1,4 +1,23 @@
-Problem
+Majority of the Dynamic Programming problems can be categorized into two types:
+
+1. Optimization problems.
+2. Combinatorial problems.
+
+The optimization problems expect you to select a feasible solution, so that the value of the required function 
+is minimized or maximized. 
+
+Combinatorial problems expect you to figure out the number of ways to do something, or the probability of some event happening.
+
+Every Dynamic Programming problem has a schema to be followed:
+
+1)Show that the problem can be broken down into optimal sub-problems.
+2)Recursively define the value of the solution by expressing it in terms of optimal solutions for smaller sub-problems.
+3)Compute the value of the optimal solution in bottom-up fashion.
+4)Construct an optimal solution from the computed information.
+
+
+
+Example 
 Given a set of coins, and an amount of change we need to return, we are asked to calculate the number of ways we can return
 the correct change, given our set of coins.
 
