@@ -67,7 +67,9 @@ For example, if N = 5, the answer would be 6.
 1 + 3 + 1
 3 + 1 + 1
 Sub-problem: DPn be the number of ways to write N as the sum of 1, 3, and 4.
-Finding recurrence: Consider one possible solution, n = x1 + x2 + ... xn. If the last number is 1, the sum of the remaining numbers should be n - 1. So, number of sums that end with 1 is equal to DPn-1.. Take other cases into account where the last number is 3 and 4. The final recurrence would be:
+Finding recurrence: Consider one possible solution, n = x1 + x2 + ... xn. If the last number is 1, 
+the sum of the remaining numbers should be n - 1. So, number of sums that end with 1 is equal to DPn-1.. 
+Take other cases into account where the last number is 3 and 4. The final recurrence would be:
 
 DPn = DPn-1 + DPn-3 + DPn-4.
 
